@@ -1,13 +1,30 @@
 body {
     text-align: center;
-    font-family: "Montserrat";
+    font-family: "Poppins";
 }
 
 h1, h2, h3, h4 ,h5 ,h6 {
-    font-family: "Montserrat";
-    font-weight: bold;
+    font-family: "Poppins";
+    font-weight: 700;
     
 }
+
+p {
+    font-size: small;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* Heading */
+
+.big-heading {
+    size: 4rem;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+    margin: 20px 0px;
+}
+
 
 /* Navbar */
 
@@ -22,15 +39,20 @@ h1, h2, h3, h4 ,h5 ,h6 {
 
 .nav-link {
     font-size: 1.2rem;
-    font-family: "Montserrat-Light";
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
 }
 
 .navbar-brand {
-    font-family:"Ubuntu";
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
     font-size: 2.5rem;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
+    
 }
+
+.fa-brands {
+    color : #42CBFF;
+  }
 
 /* Title */
 
@@ -45,12 +67,133 @@ h1, h2, h3, h4 ,h5 ,h6 {
 /* MainPage */
 
 #mainpage {
-    background-color:#51abcb;
+    background-color:#42CBFF;
+}
+
+#mainpage .container-fluid {
+    padding: 11% 15%;
+}
+
+.main-btn {
+    font-family: "Poppins";
+    font-weight:600;
+    border-radius: 25px;
+    margin: 20px 360px 10px 0px;
+    padding: 1% 7%;
+    
+}
+
+.main-p {
+    color: #fff;
+    text-align: left;
+}
+
+.main-left {
+    text-align: left;
+}
+
+#mainpage .row {
+    margin-top: 1px;
 }
 
 /* mainpage Image */
 .mainpage-img {
-    transform: rotate(5deg);
-
+    margin-right: 240px;
 }
+
+/* services */
+
+#services .container-fluid {
+    padding: 10% 15%;
+}
+
+/* Architecture */
+
+#architecture {
+    background-color: #FAF9FE;
+    text-align: left;
+}
+
+#architecture .container-fluid {
+    padding: 15% 15%;
+}
+
+/* Features */
+
+#features .container-fluid {
+    padding: 10% 15%;
+}
+
+.row-feature {
+    margin-top: 10px;
+}
+
+.features-div {
+    width: 30%;
+    background-color: #FAF9FE;
+    padding: 1%;
+    margin: 30px 20px 20px 20px ;
+    
+}
+
+/* video */
+
+.video {
+    height: 50vh;
+    width: 100%;
+    object-fit: fill; // use "cover" to avoid distortion
+    /* position: absolute; */
+}
+
+/* Events */
+
+#events .container-fluid {
+    padding: 10% 15%;
+}
+
+/* Price */
+
+#price {
+    background-color: #FAF9FE;
+}
+
+#price .container-fluid {
+        padding: 10% 15%;
+}
+
+#price .row{
+    padding: 2%;
+}
+
+.price-btn {
+    background-color: black;
+    color: white;
+    position: relative;
+    padding: 2% 5%;
+    margin: 0px 235px 0px 0px;
+}
+
+#price .row p {
+    text-align: left;
+}
+
+#price .row h3, h5 {
+    text-align: left;
+}
+
+.price-div-1 {
+    margin: 30px 0px 20px 0px ;
+    background-color: #fff;
+}
+
+.price-div-2 {
+    margin: 30px 0px 20px 0px ;
+    background-color: #fff;
+}
+
+.price-div-3 {
+    margin: 30px 0px 20px 0px ;
+    background-color: #fff;
+}
+
 
