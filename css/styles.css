@@ -80,6 +80,7 @@ p {
     border-radius: 25px;
     margin: 20px 360px 10px 0px;
     padding: 1% 7%;
+    font-size: medium;
     
 }
 
@@ -96,17 +97,28 @@ p {
     margin-top: 1px;
 }
 
-/* mainpage Image */
 .mainpage-img {
     margin-right: 240px;
 }
 
 /* services */
 
+#services .row-services {
+    margin-top: 55px;
+}
 #services .container-fluid {
     padding: 10% 15%;
 }
 
+.service-h5 {
+    text-align: center;
+}
+
+.serices-img {
+    width:100px;
+    height:100px; 
+    object-fit: fill;
+}
 /* Architecture */
 
 #architecture {
@@ -139,10 +151,9 @@ p {
 /* video */
 
 .video {
-    height: 50vh;
+    height: 75vh;
     width: 100%;
-    object-fit: fill; // use "cover" to avoid distortion
-    /* position: absolute; */
+    object-fit: fill;
 }
 
 /* Events */
@@ -168,6 +179,7 @@ p {
 .price-btn {
     background-color: black;
     color: white;
+    font-size: 12px;
     position: relative;
     padding: 2% 5%;
     margin: 0px 235px 0px 0px;
@@ -196,4 +208,48 @@ p {
     background-color: #fff;
 }
 
+/* FAQ */
 
+#faq .container-fluid {
+    padding:5% 7%;
+}
+#faq .faq-h3, .faq-p {
+    color: #42BFFF;
+    text-align: right;
+}
+
+#faq .faq-row {
+    margin-top: 50px;
+}
+.div-2 {
+    text-align: left;
+}
+
+/* Download */
+
+#download {
+    background-color: #3DABFE;
+}
+
+#download .container-fluid {
+    padding: 10% 10%;
+}
+
+#download .download-h3, .download-p {
+    color: #fff;
+}
+
+#download .download-btn {
+    border: none;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #222222;
+    color:#fff;
+}
+
+#footer .container-fluid {
+    padding: 5% 10%;
+}
