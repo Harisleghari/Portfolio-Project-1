@@ -1,10 +1,13 @@
 body {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6em;
     text-align: center;
-    font-family: "Poppins";
 }
 
 h1, h2, h3, h4 ,h5 ,h6 {
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     
 }
@@ -18,11 +21,13 @@ p {
 /* Heading */
 
 .big-heading {
+    font-size: 75px;
+    font-weight: 700;
     size: 4rem;
     line-height: 1.5;
     color: #fff;
     text-align: left;
-    margin: 20px 0px;
+    /* margin: 20px 0px; */
 }
 
 
@@ -32,6 +37,14 @@ p {
     padding: 0 15rem;
 }
 
+.navbar-nav {
+    position: relative;
+    left: 35%;
+}
+.navbar-collapse {
+    position: relative;
+    left: 15%;
+}
 .nav-item {
     padding: 0 18px;
     
@@ -39,20 +52,19 @@ p {
 
 .nav-link {
     font-size: 1.2rem;
-    font-family: "poppins", sans-serif;
     font-weight: 700;
 }
 
 .navbar-brand {
-    font-family: "Poppins", sans-serif;
+    position: relative;
+    right: 15%;
     font-weight: 800;
-    font-size: 2.5rem;
+    font-size: 32px;
     
 }
-
 .fa-brands {
     color : #42CBFF;
-  }
+} 
 
 /* Title */
 
@@ -61,7 +73,7 @@ p {
 }
 
 #title .container-fluid {
-    padding: 5% 15% 0% 10%;
+    padding: 1% 5% 1% 5%;
 }
 
 /* MainPage */
@@ -71,22 +83,28 @@ p {
 }
 
 #mainpage .container-fluid {
-    padding: 11% 15%;
+    padding: 10% 10%;
 }
 
 .main-btn {
+    position: relative;
+    top: 15px;
     font-family: "Poppins";
     font-weight:600;
     border-radius: 25px;
-    margin: 20px 360px 10px 0px;
     padding: 1% 7%;
-    font-size: medium;
+    font-size: 18px;
     
+}
+
+.main-btn:hover {
+    background-color: #42CBFF;
 }
 
 .main-p {
     color: #fff;
     text-align: left;
+    font-size: 18px;
 }
 
 .main-left {
@@ -98,26 +116,46 @@ p {
 }
 
 .mainpage-img {
-    margin-right: 240px;
+    position: relative;
+    right: 35px;
 }
 
 /* services */
 
 #services .row-services {
-    margin-top: 55px;
+    margin-top: 75px;
 }
 #services .container-fluid {
-    padding: 10% 15%;
+    padding: 10% 5%;
+}
+
+.serve-h3 {
+    font-size: 40px;
+}
+
+.serve-p {
+    font-size: 16px;
 }
 
 .service-h5 {
+    font-size: 25px;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.row-services p {
+    font-size: 16px;
 }
 
 .serices-img {
     width:100px;
     height:100px; 
     object-fit: fill;
+}
+
+.serices-img:hover {
+    background-color:#3DABFE;
 }
 /* Architecture */
 
@@ -127,17 +165,45 @@ p {
 }
 
 #architecture .container-fluid {
-    padding: 15% 15%;
+    padding: 10% 5%;
 }
+
+#architecture h3 {
+    font-size: 50px
+}
+
+#architecture p {
+    font-size: 16px;
+    position: relative;
+    top: 16px;
+}
+
+.architec-btn {
+    position: relative;
+    top: 60px;
+    font-family: "Poppins";
+    font-weight:600;
+    border-radius: 25px;
+    padding: 1% 7%;
+    font-size: 18px;
+    
+}
+
+.img-arch {
+    max-width: 100%;
+    height: auto;
+}
+
 
 /* Features */
 
 #features .container-fluid {
-    padding: 10% 15%;
+    padding: 10% 5%;
 }
 
 .row-feature {
-    margin-top: 10px;
+    position: relative;
+    top: 20px;
 }
 
 .features-div {
@@ -146,6 +212,27 @@ p {
     padding: 1%;
     margin: 30px 20px 20px 20px ;
     
+}
+
+.features-div h5 {
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+}
+
+#features h3 {
+    font-size: 40px;
+}
+
+#features p {
+    font-size: 16px;
+    position: relative;
+    top: 16px;
+}
+
+.img-1 {
+    width: 40%;
+    height: 60%;
 }
 
 /* video */
@@ -162,6 +249,16 @@ p {
     padding: 10% 15%;
 }
 
+#events h3 {
+    font-size: 40px;
+}
+
+#events p {
+    font-size: 16px;
+    position: relative;
+    top: 16px;
+}
+
 /* Price */
 
 #price {
@@ -169,7 +266,17 @@ p {
 }
 
 #price .container-fluid {
-        padding: 10% 15%;
+        padding: 5% 5%;
+}
+
+#price h3 {
+    font-size: 40px;
+}
+
+#price p {
+    font-size: 16px;
+    position: relative;
+    top: 16px;
 }
 
 #price .row{
@@ -179,21 +286,33 @@ p {
 .price-btn {
     background-color: black;
     color: white;
-    font-size: 12px;
+    font-size: 20px;
     position: relative;
-    padding: 2% 5%;
-    margin: 0px 235px 0px 0px;
+    top: 10px;
+    right: 23%;
+    padding: 3% 10%;
+}
+
+.price-btn:hover {
+    background-color:#FAF9FE;
+    color: black;
 }
 
 #price .row p {
     text-align: left;
+    
 }
 
-#price .row h3, h5 {
+
+#price .price-h5 {
     text-align: left;
+    position:relative;
+    right: 5%;
 }
 
 .price-div-1 {
+    position:relative;
+    right: 1%;
     margin: 30px 0px 20px 0px ;
     background-color: #fff;
 }
@@ -204,6 +323,8 @@ p {
 }
 
 .price-div-3 {
+    position:relative;
+    left: 1%;
     margin: 30px 0px 20px 0px ;
     background-color: #fff;
 }
@@ -211,18 +332,43 @@ p {
 /* FAQ */
 
 #faq .container-fluid {
-    padding:5% 7%;
+    padding:5% 5%;
 }
-#faq .faq-h3, .faq-p {
+#faq .faq-p {
+    text-align: right;
+    font-size: 20px;
+}
+
+.faq-h3 {
+    position: relative;
+    top: 20px;
     color: #42BFFF;
     text-align: right;
+    font-size: 55px;
 }
 
 #faq .faq-row {
     margin-top: 50px;
 }
-.div-2 {
+.faq-div-2 {
+    position: relative;
+    left: 2.5%;
     text-align: left;
+}
+
+#faq h3 {
+    font-size: 46px;
+}
+
+#faq p {
+    font-size: 16px;
+    position: relative;
+    top: 16px;
+}
+
+.faq-div-2 h4 {
+    position: relative;
+    top: 15px;
 }
 
 /* Download */
@@ -235,21 +381,196 @@ p {
     padding: 10% 10%;
 }
 
-#download .download-h3, .download-p {
+#download .download-h3{
+    position: relative;
+    bottom: 30px;
+    font-size: 50px;
     color: #fff;
 }
 
-#download .download-btn {
-    border: none;
+#download .download-p {
+    position: relative;
+    top: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+#download .buttons{
+    padding: 20px 30px 0px 30px;
+    margin: 20px;
+    border: 1px solid transparent;
+    background-color: #fff;
+    color: #222;
+}
+
+#download .buttons:hover {
+    background-color: #3DABFE;
+}
+
+.download-button {
+    position: relative;
+    top: 30px;
+}
+
+.buttons i {
+    font-size: 40px;
+    padding-right: 20px;
+    color: #42d1ff;
+}
+
+.buttons a {
+    color: #222;
+    text-decoration: none;
+}
+
+.buttons p {
+    margin-top: 0%;
+    margin-bottom: 1rem;
+    
+}
+
+.buttons p span{
+    font-size: 24px; 
+    font-weight: 600;
+    
 }
 
 /* Footer */
 
-#footer {
+.footer-area {
+    padding-top: 100px;
     background-color: #222222;
-    color:#fff;
 }
 
-#footer .container-fluid {
-    padding: 5% 10%;
+.section-gap {
+    padding: 120px;
+}
+
+.foot-div {
+    text-align: left;
+}
+.single-footer-widget {
+    color: #fff;
+}
+
+.footer-area h6{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-nav ol, ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.footer-nav li {
+    margin-top: 8px;
+    
+}
+
+.footer-nav li a {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.single-footer-widget input {
+    line-height: 38px;
+    border: none;
+    background-color: #fff;
+    font-weight: 300;
+    border-radius: 20px;
+    color: #777;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.footer-area .primary-btn {
+    background-color: #3ea7ff;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 60px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.footer-area .primary-btn:hover {
+    background-color:#42d1ff;
+}
+
+.footer-area .primary-btn span {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+    right: 30px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.instafeed {
+    margin: -5px;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.instafeed {
+    margin-top: 5%;
+}
+
+.instafeed li {
+    overflow: hidden;
+    width: 25%;
+}
+
+.instafeed li img {
+    margin: 5px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.footer-bottom {
+    padding-top: 80px;
+}
+
+.footer-bottom i {
+    color: #42d1ff;
+}
+
+.footer-bottom span {
+    color: #42d1ff;
+}
+
+.footer-social {
+    text-align: right;
+}
+
+.footer-social a {
+    width: 20px;
+    width: 40px;
+    display: inline-table;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
 }
