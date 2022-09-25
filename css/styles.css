@@ -30,7 +30,6 @@ p {
     /* margin: 20px 0px; */
 }
 
-
 /* Navbar */
 
 .navbar {
@@ -40,6 +39,7 @@ p {
 .navbar-nav {
     position: relative;
     left: 35%;
+    overflow: hidden;
 }
 .navbar-collapse {
     position: relative;
@@ -65,16 +65,6 @@ p {
 .fa-brands {
     color : #42CBFF;
 } 
-
-/* Title */
-
-#title {
-    text-align: left;
-}
-
-#title .container-fluid {
-    padding: 1% 5% 1% 5%;
-}
 
 /* MainPage */
 
@@ -577,3 +567,558 @@ ol, ul {
     padding-top: 10px;
     text-decoration: none;
 }
+
+/* Media Query's */
+
+
+
+
+
+@media (max-width: 374px) and (min-width: 320px) {
+    /* Title */
+    #title {
+      padding: 0% 5%;
+    }
+
+    /* MainPage */
+
+    #mainpage .container-fluid {
+        padding: 5%;
+    }
+
+    .big-heading {
+        font-size: 50px;
+    }
+
+    .mainpage-img {
+        margin-top: 10%;
+        width: 250px;
+    }
+
+    /* Architecture */
+
+    #architecture h3 {
+        font-size: 40px;
+    }
+
+    .img-arch {
+        margin-top: 10%;
+    }
+
+    /* Feature */
+
+    .row-feature {
+        position: relative;
+        top: 5px;
+        left: 5px;
+        width: 310px;
+       }
+
+    .features-div h5 {
+        position: relative;
+        top: 30px;
+        font-size: 10px;
+        
+    }
+
+    /* Events */
+
+    .events-img {
+        margin-top: 10%;
+        width: 200px;
+    }
+
+    /* Price */
+
+    .price-btn {
+        font-size: 10px;
+        position: relative;
+        top: 3px;
+        right: 0%;
+        padding: 3% 10%;
+    }
+
+    /* FAQ */
+
+    .faq-h3 {
+        font-size: 20px;
+    }
+
+    #faq .faq-p {
+        font-size: 10px;
+    }
+
+    .faq-div-2 h4 {
+        font-size: 10px;
+    }
+
+    #faq p {
+        font-size: 7px;
+    }
+
+    /* Download */
+
+    #download .buttons {
+        width: 120px;
+        padding: 10px 15px 0px 15px;
+        margin: 10px;;
+    }
+
+    .buttons p span {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .buttons i {
+        font-size: 30px;
+    }
+
+    /* Footer */
+
+    .single-footer-widget input {
+        margin-bottom: 10px;
+        width: 500%;
+    }
+
+    .footer-area .primary-btn {
+        margin-bottom: 5px;
+    }
+
+    .instafeed li {
+        width: 50%;
+        height: 7vh;
+    }
+  }
+
+@media (max-width: 424px) and (min-width: 375px) {
+    /* Title */
+    #title {
+        padding: 0% 5%;
+      }
+  
+      /* MainPage */
+  
+      #mainpage .container-fluid {
+          padding: 5%;
+      }
+  
+      .big-heading {
+          font-size: 50px;
+      }
+  
+      .mainpage-img {
+          margin-top: 10%;
+          width: 250px;
+      }
+  
+      /* Architecture */
+  
+      #architecture h3 {
+          font-size: 40px;
+      }
+  
+      .img-arch {
+          margin-top: 10%;
+      }
+  
+      /* Feature */
+  
+      .row-feature {
+          position: relative;
+          top: 5px;
+          left: 5px;
+          width: 310px;
+         }
+  
+      .features-div h5 {
+          position: relative;
+          top: 30px;
+          font-size: 10px;
+          
+      }
+  
+      /* Events */
+  
+      .events-img {
+          margin-top: 10%;
+          width: 200px;
+      }
+  
+      /* Price */
+  
+      .price-btn {
+          font-size: 10px;
+          position: relative;
+          top: 3px;
+          right: 0%;
+          padding: 3% 10%;
+      }
+  
+      /* FAQ */
+  
+      .faq-h3 {
+          font-size: 20px;
+      }
+  
+      #faq .faq-p {
+          font-size: 10px;
+      }
+  
+      .faq-div-2 h4 {
+          font-size: 10px;
+      }
+  
+      #faq p {
+          font-size: 10px;
+      }
+  
+      /* Download */
+      
+      #download .buttons {
+          width: 120px;
+          padding: 10px 15px 0px 15px;
+          margin: 10px;;
+      }
+  
+      .buttons p span {
+          font-size: 10px;
+          font-weight: 600;
+      }
+  
+      .buttons i {
+          font-size: 30px;
+      }
+  
+      /* Footer */
+  
+      .single-footer-widget input {
+          margin-bottom: 10px;
+          width: 190%;
+      }
+  
+      .footer-area .primary-btn {
+          margin-bottom: 5px;
+      }
+  
+      .instafeed li {
+          width: 50%;
+          height: 7vh;
+      }
+  }
+
+@media (max-width: 767px) and (min-width: 425px) {
+    /* Title */
+    #title {
+        padding: 0% 5%;
+      }
+  
+      /* MainPage */
+  
+      #mainpage .container-fluid {
+          padding: 5%;
+      }
+  
+      .big-heading {
+          font-size: 50px;
+      }
+  
+      .mainpage-img {
+          margin-top: 10%;
+          width: 250px;
+      }
+  
+      /* Architecture */
+  
+      #architecture h3 {
+          font-size: 40px;
+      }
+  
+      .img-arch {
+          margin-top: 10%;
+      }
+  
+      /* Feature */
+  
+      .row-feature {
+          position: relative;
+          top: 5px;
+          left: 50px;
+          width: 310px;
+         }
+  
+      .features-div h5 {
+          position: relative;
+          top: 30px;
+          font-size: 10px;
+          
+      }
+  
+      /* Events */
+  
+      .events-img {
+          margin-top: 10%;
+          width: 200px;
+      }
+  
+      /* Price */
+  
+      .price-btn {
+          font-size: 10px;
+          position: relative;
+          top: 3px;
+          right: 0%;
+          padding: 3% 10%;
+      }
+  
+      /* FAQ */
+  
+      .faq-h3 {
+          font-size: 20px;
+      }
+  
+      #faq .faq-p {
+          font-size: 10px;
+      }
+  
+      .faq-div-2 h4 {
+          font-size: 10px;
+      }
+  
+      #faq p {
+          font-size: 10px;
+      }
+  
+      /* Download */
+      
+      #download .buttons {
+          width: 120px;
+          padding: 10px 15px 0px 15px;
+          margin: 10px;;
+      }
+  
+      .buttons p span {
+          font-size: 10px;
+          font-weight: 600;
+      }
+  
+      .buttons i {
+          font-size: 30px;
+      }
+  
+      /* Footer */
+  
+      .single-footer-widget input {
+          margin-bottom: 10px;
+          width: 120%;
+      }
+  
+      .footer-area .primary-btn {
+          margin-bottom: 5px;
+      }
+  
+      .instafeed li {
+          width: 50%;
+          height: 7vh;
+      }
+
+      .footer-social {
+        display: flex;
+        width: 50px;
+        padding-top: 5px;
+    }
+
+  }
+
+  @media (max-width: 1023px) and (min-width: 768px) {
+    /* Title */
+    #title {
+        padding: 0% 5%;
+      }
+  
+      /* MainPage */
+  
+      #mainpage .container-fluid {
+          padding: 5%;
+      }
+  
+      .big-heading {
+          font-size: 50px;
+      }
+  
+      .mainpage-img {
+          margin-top: 10%;
+          width: 250px;
+      }
+  
+      /* Architecture */
+  
+      #architecture h3 {
+          font-size: 40px;
+      }
+  
+      .img-arch {
+          margin-top: 10%;
+      }
+  
+      /* Feature */
+  
+      .row-feature {
+          position: relative;
+          top: 5px;
+          left: 150px;
+          width: 500px;
+         }
+  
+      .features-div h5 {
+          position: relative;
+          top: 30px;
+          font-size: 10px;
+          
+      }
+  
+      /* Events */
+  
+      .events-img {
+          margin-top: 10%;
+          width: 200px;
+      }
+  
+      /* Price */
+  
+      .price-btn {
+          font-size: 10px;
+          position: relative;
+          top: 3px;
+          right: 0%;
+          padding: 3% 10%;
+      }
+  
+      /* FAQ */
+  
+      .faq-h3 {
+          font-size: 20px;
+      }
+  
+      #faq .faq-p {
+          font-size: 10px;
+      }
+  
+      .faq-div-2 h4 {
+          font-size: 10px;
+      }
+  
+      #faq p {
+          font-size: 10px;
+      }
+  
+      /* Download */
+      
+      #download .buttons {
+          width: 200px;
+          padding: 10px 15px 0px 15px;
+          margin: 10px;;
+      }
+  
+      .buttons p span {
+          font-size: 2  0px;
+          font-weight: 600;
+      }
+  
+      .buttons i {
+          font-size: 30px;
+      }
+  
+      /* Footer */
+  
+      .single-footer-widget input {
+          margin-bottom: 10px;
+          width: 35%;
+      }
+  
+      .footer-area .primary-btn {
+          margin-bottom: 5px;
+      }
+  
+      .instafeed li {
+          width: 25%;
+          height: 25vh;
+      }
+
+      .footer-area h6 {
+        margin-top: 20%;
+    }
+
+      .footer-social {
+        display: flex;
+        width: 50px;
+        padding-top: 5px;
+    }
+  }
+
+  @media (max-width: 1439px) and (min-width: 1024px) {
+    /* Title */
+    #title {
+        padding: 0% 10%;
+      }
+
+      /* Navbar */
+
+.navbar-collapse {
+    position: relative;
+    left: -22%;
+}
+
+.navbar-brand {
+    position: relative;
+    right: 18%;
+    
+}
+
+  
+      /* MainPage */
+  
+      #mainpage .container-fluid {
+          padding: 5%;
+      }
+  
+      .big-heading {
+          font-size: 75px;
+      }
+
+      }
+  
+      /* Feature */
+  
+      .row-feature {
+          position: relative;
+          top: 5px;
+          left: 15px;
+          width: 100%;
+          padding-left: 10%;
+         }
+
+         .features-div {
+            width: 25%;
+        }
+  
+      /* Events */
+  
+      .events-img {
+          margin-top: 10%;
+          width: 200px;
+      }
+  
+      /* Price */
+  
+      .price-btn {
+          position: relative;
+          top: 3px;
+          right: 10%;
+          padding: 3% 10%;
+      }
+  
+      /* Footer */
+
+      .form-group {
+        width: 75%;
+    }
